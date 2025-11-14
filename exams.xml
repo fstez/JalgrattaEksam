@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exams>
+    <dim1 year="2025">
+        <dim2 month="05">
+            <dim3
+                id="1"
+                datetime="2025-05-21T10:00:00"
+                place="Tallinn, ruum A101"
+                examiner="Marko Leht"
+                duration="90"
+                type="Sisseastumiseksam"
+                />
+            
+            <dim3 
+                id="2"
+                datetime="2025-05-22T14:00:00"
+                place="Tartu, ruum B202"
+                examiner="Liina Saar"
+                duration="60"
+                type="Kontrolltöö"
+            />
+        </dim2>
+        <dim2>
+            <dim3
+                id="3"
+                datetime="2025-06-10T09:00:00"
+                place="Tallinn, ruum A105"
+                examiner="Marko Leht"
+                duration="120"
+                type="Lõpueksam"
+            />
+            <dim3 
+                id="4"
+                datetime="2025-06-15T13:00:00"
+                place="Pärnu, ruum C3"
+                examiner="Karl Õun"
+                duration="75"
+                type="Arvestus"
+            />
+        </dim2>
+    </dim1>
+
+    <dim1 year="2026">
+        <dim2 month="01">
+            <dim3 
+                id="5"
+                datetime="2026-01-12T11:00:00"
+                place="Narva, ruum D10"
+                examiner="Olga Ivanova"
+                duration="80"
+                type="Talveeksam"
+            />
+        </dim2>
+    </dim1>
+</exams>
