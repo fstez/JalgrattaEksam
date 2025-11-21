@@ -5,6 +5,11 @@
 	<exam id="1">
 		<datetime>2025-12-01T09:00:00</datetime>
 		<location>Room 101</location>
+		<students>
+			<student>Anna Smirnova</student>
+			<student>Ivan Kuznetsov</student>
+			<student>Maria Petrova</student>
+		</students>
 		<examiner>Dr. Ivanov</examiner>
 		<duration>90</duration>
 	</exam>
@@ -12,6 +17,11 @@
 	<exam id="2">
 		<datetime>2025-12-02T13:30:00</datetime>
 		<location>Room 202</location>
+		<students>
+			<student>Sergey Ivanov</student>
+			<student>Elena Volkova</student>
+			<student>Dmitry Orlov</student>
+		</students>
 		<examiner>Ms. Petrov</examiner>
 		<duration>60</duration>
 	</exam>
@@ -19,6 +29,12 @@
 	<exam id="3">
 		<datetime>2025-12-05T10:00:00</datetime>
 		<location>Room 303</location>
+		<students>
+			<student>Nikolay Sokolov</student>
+			<student>Olga Fedorova</student>
+			<student>Maxim Belov</student>
+			<student>Irina Popova</student>
+		</students>
 		<examiner>Dr. Ivanov</examiner>
 		<duration>120</duration>
 	</exam>
@@ -26,6 +42,10 @@
 	<exam id="4">
 		<datetime>2025-12-10T09:00:00</datetime>
 		<location>Lab A</location>
+		<students>
+			<student>Alexey Morozov</student>
+			<student>Svetlana Nikitina</student>
+		</students>
 		<examiner>Mr. Saar</examiner>
 		<duration>45</duration>
 	</exam>
