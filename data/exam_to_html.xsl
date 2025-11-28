@@ -10,7 +10,7 @@
         </head>
         <body>
 
-            <h2>Список экзаменов по велоспорту</h2>
+            <h2>Jalgrattasõidueksamite loetelu</h2>
 
             <table border="1" cellpadding="5">
                 <tr>
