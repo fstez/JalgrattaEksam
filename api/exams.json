@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "date": "2025-03-15",
+        "place": "Tallinn Velodroom (Tondi)",
+        "time": "10:00",
+        "duration": 80,
+        "examiner": "Kristjan Saar",
+        "category": "Track Cycling"
+    },
+    {
+        "id": 2,
+        "date": "2025-03-15",
+        "place": "Tallinn Velodroom (Tondi)",
+        "time": "12:30",
+        "duration": 60,
+        "examiner": "Maarja Kask",
+        "category": "Track Sprint"
+    },
+    {
+        "id": 3,
+        "date": "2025-04-05",
+        "place": "Pirita Velorada (Pirita Tee)",
+        "time": "09:00",
+        "duration": 120,
+        "examiner": "Juhan Õunapuu",
+        "category": "Road Race"
+    },
+    {
+        "id": 4,
+        "date": "2025-04-18",
+        "place": "Nõmme Spordikeskus",
+        "time": "14:00",
+        "duration": 90,
+        "examiner": "Liis Rebane",
+        "category": "Mountain Bike"
+    },
+    {
+        "id": 5,
+        "date": "2025-05-01",
+        "place": "Kadrioru Park",
+        "time": "11:00",
+        "duration": 75,
+        "examiner": "Marko Teder",
+        "category": "Cyclocross"
+    }
+]
