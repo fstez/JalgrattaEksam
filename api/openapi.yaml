@@ -1,0 +1,77 @@
+openapi: 3.1.0
+info:
+  title: Cycling Exam Management API
+  version: 1.0.0
+
+paths:
+  /api/exams:
+    get:
+      summary: Get list of all exams
+      responses:
+        '200':
+          description: List of exams
+    post:
+      summary: Create a new exam
+      requestBody:
+        required: true
+      responses:
+        '201':
+          description: Exam created
+
+  /api/exams/{id}:
+    get:
+      summary: Get exam by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Exam object
+        '404':
+          description: Not found
+    put:
+      summary: Update exam by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+      responses:
+        '200':
+          description: Updated
+        '404':
+          description: Not found
+    delete:
+      summary: Delete exam by ID
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Deleted
+
+  /api/exams/{id}/examiner:
+    patch:
+      summary: Change examiner for exam
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+      responses:
+        '200':
+          description: Examiner updated
+        '404':
+          description: Not found
