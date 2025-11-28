@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalgrattasõidu eksami juht</title>
+</head>
+<body>
+    <h1>Jalgrattasõidu eksamite haldussüsteem</h1>
+
+    <h2>Kasutajarežiim</h2>
+    <button onclick="loadExams()">Laadige alla kõik eksamid</button>
+
+    <div>
+        <label>Otsi asukoha järgi: <input id="searchPlace"></label>
+        <button onclick="searchByPlace()">Otsi</button>
+    </div>
+
+    <div>
+        <button onclick="sortByTime()">Sorteeri aja järgi</button>
+        <button onclick="sortByDate()">Sorteeri kuupäeva järgi</button>
+    </div>
+
+    
+    <div id="examList"></div>
+
+    <h2>Töötaja režiim (admin)</h2>
+    <div>
+        <h3>Eksamineerija vahetamine</h3>
+        <label>Eksami ID: <input id="changeId" type="number"></label>
+        <label>Uus eksamineerija: <input id="changeExaminer"></label>
+        <button onclick="changeExaminer()">Muuda</button>
+    </div>
+    <div>
+        <h3>Kustuta eksam</h3>
+        <label>Eksami ID: <input id="deleteId" type="number"></label>
+        <button onclick="deleteExam()">Kustuta</button>
+    </div>  
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

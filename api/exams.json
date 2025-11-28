@@ -43,5 +43,14 @@
         "duration": 75,
         "examiner": "Marko Teder",
         "category": "Cyclocross"
+    },
+    {
+        "id": 6,
+        "date": "2025-11-28",
+        "place": "Tallinn",
+        "time": "13:30",
+        "duration": 60,
+        "examiner": "Talehh Gusseinov",
+        "category": "testing"
     }
 ]
