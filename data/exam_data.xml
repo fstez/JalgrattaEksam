@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exams>
+
+    <session date="2025-03-15">
+        <location place="Tallinn Velodroom (Tondi)">
+            <exam id="1">
+                <examiner name="Kristjan Saar"/>
+                <time>10:00</time>
+                <duration>80</duration>
+                <category>Track Cycling</category>
+            </exam>
+
+            <exam id="2">
+                <examiner name="Maarja Kask"/>
+                <time>12:30</time>
+                <duration>60</duration>
+                <category>Track Sprint</category>
+            </exam>
+        </location>
+    </session>
+
+    <session date="2025-04-05">
+        <location place="Pirita Velorada (Pirita Tee)">
+            <exam id="3">
+                <examiner name="Juhan Õunapuu"/>
+                <time>09:00</time>
+                <duration>120</duration>
+                <category>Road Race</category>
+            </exam>
+        </location>
+    </session>
+
+    <session date="2025-04-18">
+        <location place="Nõmme Spordikeskus">
+            <exam id="4">
+                <examiner name="Liis Rebane"/>
+                <time>14:00</time>
+                <duration>90</duration>
+                <category>Mountain Bike</category>
+            </exam>
+        </location>
+    </session>
+
+    <session date="2025-05-01">
+        <location place="Kadrioru Park">
+            <exam id="5">
+                <examiner name="Marko Teder"/>
+                <time>11:00</time>
+                <duration>75</duration>
+                <category>Cyclocross</category>
+            </exam>
+        </location>
+    </session>
+
+</exams>
