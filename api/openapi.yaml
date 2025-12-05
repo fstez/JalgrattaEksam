@@ -10,13 +10,24 @@ paths:
       responses:
         '200':
           description: List of exams
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Exam'
+
     post:
       summary: Create a new exam
       requestBody:
         required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Exam'
       responses:
         '201':
-          description: Exam created
+          description: Exam added
 
   /api/exams/{id}:
     get:
@@ -29,9 +40,14 @@ paths:
             type: integer
       responses:
         '200':
-          description: Exam object
+          description: One exam
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Exam'
         '404':
           description: Not found
+
     put:
       summary: Update exam by ID
       parameters:
@@ -42,11 +58,16 @@ paths:
             type: integer
       requestBody:
         required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Exam'
       responses:
         '200':
           description: Updated
         '404':
           description: Not found
+
     delete:
       summary: Delete exam by ID
       parameters:
@@ -70,8 +91,36 @@ paths:
             type: integer
       requestBody:
         required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                examiner:
+                  type: string
       responses:
         '200':
           description: Examiner updated
         '404':
           description: Not found
+
+components:
+  schemas:
+    Exam:
+      type: object
+      properties:
+        id:
+          type: integer
+        date:
+          type: string
+          format: date
+        place:
+          type: string
+        time:
+          type: string
+        duration:
+          type: integer
+        examiner:
+          type: string
+        category:
+          type: string
