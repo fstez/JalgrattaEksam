@@ -46,11 +46,11 @@
     },
     {
         "id": 6,
-        "date": "2025-11-28",
-        "place": "Tallinn",
-        "time": "13:30",
+        "date": "2025-12-12",
+        "place": "Talliin",
+        "time": "10:00",
         "duration": 60,
-        "examiner": "Talehh Gusseinov",
-        "category": "testing"
+        "examiner": "Liis",
+        "category": "B"
     }
 ]

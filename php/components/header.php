@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Jalgrattaeksamite haldussüsteem</title>
     <link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body>
 <div class="container">

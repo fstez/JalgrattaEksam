@@ -1,5 +1,5 @@
 <?php
-include "components/header.php";
+include __DIR__ . "/components/header.php";
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     include "add_to_json.php";
@@ -7,6 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 }
 ?>
 
+<div class="form-card">     <!-- переместили сюда -->
 <h2>Lisa uus eksam</h2>
 
 <form method="post">
@@ -46,7 +47,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <input name="category" required>
     </div>
 
-    <button class="btn">Lisa</button>
+    <button>Lisa</button>
 </form>
+</div>
 
-<?php include "components/footer.php"; ?>
+<?php include __DIR__ . "/components/footer.php"; ?>

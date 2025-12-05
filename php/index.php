@@ -48,32 +48,21 @@ function arrow($column) {
 
 ?>
 
-<h2>Otsing ja filtrid (ilma lehe uuendamiseta)</h2>
+
+
+<h2>Otsing ja filtrid</h2>
 
 <div class="filters">
 
-    <div class="input-group">
-        <label>Eksamineerija nimi</label>
-        <input type="text" id="filter-examiner" placeholder="nt. Kristjan Saar">
-    </div>
+  <div class="input-group">
+      <label>Eksamineerija nimi</label>
+      <input type="text" id="filter-examiner" placeholder="nt. Kristjan Saar">
+  </div>
+    <br><br>
+  <button class="btn" id="filter-reset">Puhasta filtrid</button>
 
-    <div class="input-group">
-        <label>Asukoht</label>
-        <input type="text" id="filter-place" placeholder="nt. Pirita Velorada">
-    </div>
-
-    <div class="input-group">
-        <label>Kategooria</label>
-        <input type="text" id="filter-category" placeholder="nt. Mountain Bike">
-    </div>
-
-    <div class="input-group">
-        <label>Kuupäev</label>
-        <input type="date" id="filter-date">
-    </div>
-
-    <button class="btn" id="filter-reset">Nulli filtrid</button>
 </div>
+
 
 <h2>Eksaminimekiri</h2>
 
